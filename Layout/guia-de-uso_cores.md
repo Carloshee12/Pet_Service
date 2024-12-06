@@ -1,7 +1,3 @@
-Vamos detalhar os exemplos de uso direto das cores no layout e atribuir funções claras a elas, com base na sua nova paleta de cores:
-
----
-
 ### **Exemplos de Uso Direto das Cores no Layout**
 1. **Hunyadi Yellow (#fcbd61):**  
    - **Botões de Ação Primária:** "Agendar consulta", "Adotar agora", "Saiba mais".  
@@ -66,7 +62,3 @@ Vamos detalhar os exemplos de uso direto das cores no layout e atribuir funçõe
 3. **Rodapé:**  
    - Fundo: **Dark Green (#14281d)**.  
    - Ícones sociais: **Hunyadi Yellow (#fcbd61)** para destaque.  
-
----
-
-Essa abordagem ajuda a manter consistência e hierarquia visual. Caso precise, posso criar um esquema mais detalhado para cada página! 😊
