@@ -9,9 +9,8 @@ O site tem como propósito divulgar os serviços do pet shop, como clínica vete
 
 O projeto tem como objetivo a aplicação e uso eficiente das tecnologias web, mostrando como HTML, CSS e JavaScript trabalham juntos para criar um produto visualmente atraente e funcional.
 
-
-
-
+## Protótipo do Projeto - Figma
+[Pet_Service - Figma](https://www.figma.com/design/dEdVVw8FIDffqoJ1Da2Cbk/Site-PetShop---PROZ-Equipe4?node-id=0-1&t=rZGD2fvU45GbX8Ig-1)
 
 
 ## Autores
