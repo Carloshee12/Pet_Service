@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/fcbd61-000000-486284-ffffff-14281d */
+
+- Tailwind
+
+{ 'hunyadi_yellow': { DEFAULT: '#fcbd61', 100: '#442901', 200: '#885303', 300: '#cc7c04', 400: '#faa11b', 500: '#fcbd61', 600: '#fcca7f', 700: '#fdd79f', 800: '#fee5bf', 900: '#fef2df' }, 'black': { DEFAULT: '#000000', 100: '#000000', 200: '#000000', 300: '#000000', 400: '#000000', 500: '#000000', 600: '#333333', 700: '#666666', 800: '#999999', 900: '#cccccc' }, 'lapis_lazuli': { DEFAULT: '#486284', 100: '#0e141a', 200: '#1d2735', 300: '#2b3b4f', 400: '#3a4e69', 500: '#486284', 600: '#6180a8', 700: '#89a0be', 800: '#b0bfd4', 900: '#d8dfe9' }, 'white': { DEFAULT: '#ffffff', 100: '#333333', 200: '#666666', 300: '#999999', 400: '#cccccc', 500: '#ffffff', 600: '#ffffff', 700: '#ffffff', 800: '#ffffff', 900: '#ffffff' }, 'dark_green': { DEFAULT: '#14281d', 100: '#040806', 200: '#08100c', 300: '#0c1812', 400: '#102118', 500: '#14281d', 600: '#336449', 700: '#51a074', 800: '#88c3a2', 900: '#c3e1d1' } }
+
+- CSV
+
+fcbd61,000000,486284,ffffff,14281d
+
+- With #
+
+#fcbd61, #000000, #486284, #ffffff, #14281d
+
+- Array
+
+["fcbd61","000000","486284","ffffff","14281d"]
+
+- Object
+
+{"Hunyadi yellow":"fcbd61","Black":"000000","Lapis Lazuli":"486284","White":"ffffff","Dark green":"14281d"}
+
+- Extended Array
+
+[{"name":"Hunyadi yellow","hex":"fcbd61","rgb":[252,189,97],"cmyk":[0,25,62,1],"hsb":[36,62,99],"hsl":[36,96,68],"lab":[81,13,54]},{"name":"Black","hex":"000000","rgb":[0,0,0],"cmyk":[0,0,0,100],"hsb":[0,0,0],"hsl":[0,0,0],"lab":[0,0,0]},{"name":"Lapis Lazuli","hex":"486284","rgb":[72,98,132],"cmyk":[45,26,0,48],"hsb":[214,45,52],"hsl":[214,29,40],"lab":[41,0,-22]},{"name":"White","hex":"ffffff","rgb":[255,255,255],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Dark green","hex":"14281d","rgb":[20,40,29],"cmyk":[50,0,27,84],"hsb":[147,50,16],"hsl":[147,33,12],"lab":[14,-11,5]}]
+
+- XML
+
+<palette>
+  <color name="Hunyadi yellow" hex="fcbd61" r="252" g="189" b="97" />
+  <color name="Black" hex="000000" r="0" g="0" b="0" />
+  <color name="Lapis Lazuli" hex="486284" r="72" g="98" b="132" />
+  <color name="White" hex="ffffff" r="255" g="255" b="255" />
+  <color name="Dark green" hex="14281d" r="20" g="40" b="29" />
+</palette>
