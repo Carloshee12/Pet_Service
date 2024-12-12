@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-Com base no tema escolhido pelo grupo, utilizamos esses sites como referência.
-
-Adoção/doação de pets:
-https://www.viumeupet.com.br
-
-Clinica veterinária e sesviços:
-https://veterinariacarlosprates.com.br/?gad_source=1&gclid=CjwKCAiA0rW6BhAcEiwAQH28Iv4VHGG4FSGqZVpEGDjMbYJuP9vrUEMuhdiXvtvMqm0NUihZF59gHRoCZkYQAvD_BwE
-
-Hotelzinho/creche para pets:
-https://pethotelpampulha.com.br
-=======
 Com base no tema escolhido pelo grupo, utilizamos esses sites como referência.
 
 Adoção/doação de pets:
@@ -23,7 +11,6 @@ https://pethotelpampulha.com.br
 
 Clinica veterinária, banho e tosa e petshop:
 https://www.manausauaus.com.br/
->>>>>>> 2735d5e711b77cfcb91c7824dbc719b9181637dc
 
 Amigo não se compara : (página de adoção)
 https://www.amigonaosecompra.com.br/
