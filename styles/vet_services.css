@@ -17,7 +17,7 @@
   align-items: center;
   background-color: var(--main-blue);
   height: 5vh;
-  padding: 2%;
+  padding: 2% 6%;
 }
 
 .options li,
@@ -114,4 +114,31 @@ footer div {
   flex-direction: column;
   margin-top: 2%;
   gap: 10%;
+}
+/* -------------------FOOTER----------------------- */
+
+
+/* -------------------MAIN----------------------- */
+
+.hero_section{ 
+  background-color: var(--main-bg);
+  background-image: url(../assets/BG-services.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.content_hero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5% 5%;
+}
+
+.content_hero .info { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4%;
 }
