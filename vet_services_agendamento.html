@@ -4,32 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/vet_services_agendamento.css">
+    <title>Agendamento</title>
 </head>
 
 <body>
     <header>
-        <div id="topbar">
-            <nav>
-                <img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="40px" height="40px">
-                <a href="#">Iníco</a>
-                <a href="#">Sobre</a>
-                <a href="#">Contato</a>
-                <a href="#">Adoção</a>
-                <a href="#">Hotel Pet</a>
-                <a href="#" class="login">
-                    <button>Entrar</button>
-                </a>
+        <nav id="topbar">
+            <a class="logo" href="#home"><img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="45px"
+                    height="45px"></a>
 
-            </nav>
-        </div>
+            <ul class="options">
+                <li><a href="">Iníco</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Adoção</a></li>
+                <li><a href="">Hotel Pet</a></li>
+                <li><a id="button" href="">Entrar</a></li>
+            </ul>
+
+
+        </nav>
     </header>
     <main>
         <div class="form_section">
             <section>
-                <p>Serviços Veterináio</p>
+                <p>Serviços Veterinários</p>
                 <h1>Veja Nossos Serviços e Faça um Agendamento</h1>
             </section>
+
             <form action="" method="post" id="form_contato" >
                 <section>
                     <label for="services">Selecione o Serviço</label>
@@ -78,36 +81,56 @@
     </main>
 
     <footer>
-        <div>
+        <div class="start">
             <h2>Pet Services</h2>
-            <h4>Visão</h4>
-            <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet, transformando vidas ao
-                conectar animais resgatados com lares amorosos e conscientes, promovendo uma sociedade mais empática
+            <div>
+                <h4>Visão</h4>
+                <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet,
+                <p> transformando vidas ao conectar animais resgatados com lares amorosos e conscientes,
+                </p> promovendo uma sociedade mais empática
                 e solidária.</p>
-            <br>
+            </div>
+
+        </div>
+
+        <div class="mid">
             <p>&copy; 2024 Grupo 04-TC41 - Empresa Pet Services. Todos os direitos reservados</p>
+
+
         </div>
 
-        <div>
-            <h3>Adote</h3>
-            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/adocao.html">Buscar Pets</a>
+        <div class="end">
+            <div class="top">
+                <div>
+                    <h3>Adote</h3>
+                    <a href="https://github.com/Carloshee12/Pet_Service/blob/main/adocao.html">Buscar Pets</a>
+                </div>
+
+                <div>
+                    <h3>Colabore</h3>
+                    <a href="https://github.com/Carloshee12/Pet_Service/blob/main/doe.html">Doe !</a>
+                </div>
+
+                <div>
+                    <h3>Redes Sociais</h3>
+                    <a style="display: flex; justify-content: center; gap: 10%;"
+                        href="https://www.instagram.com/petservices_g4"><img id="social_icon"
+                            src="./assets/instagram.svg" alt=""> Instagram</a>
+                    <a style="display: flex; justify-content: center; gap: 10%;"
+                        href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL"><img
+                            id="social_icon" src="./assets/facebook.svg" alt=""> Facebook</a>
+                </div>
+
+
+            </div>
+            <div class="bottom"> <a
+                    href="https://github.com/Carloshee12/Pet_Service/blob/main/termos_de_uso_e_politica.html">Termos de
+                    uso e Política de Privacidade</a></div>
+
         </div>
 
-        <div>
-            <h3>Colabore</h3>
-            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/doe.html">Doe !</a>
-        </div>
 
-        <div>
-            <h3>Redes Sociais</h3>
-            <a href="https://www.instagram.com/petservices_g4">Instagram</a>
-            <a href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL">Facebook</a>
-        </div>
-        <br>
-        <div>
-            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/termos_de_uso_e_politica.html">Termos de
-                uso e Política de Privacidade</a>
-        </div>
+
     </footer>
 </body>
 
