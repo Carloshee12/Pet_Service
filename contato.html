@@ -27,14 +27,59 @@
         </nav>
     </header>
     <main>
-        <section>
-            <div class="hero_title">
-                <h6>Tem alguma Sugestão ?</h6>
-                <h1>Entre em Contato com a nossa Equipe!</h1>
-                <p>Preencha o formulário abaixo e entraremos em contato com você o mais rápido possível (:</p>
-            </div>
-        </section>
-        <section>
+
+        <div class="form_section">
+            <section class="title">
+                <h1>Tem alguma Sugestão ?</h1>
+                <p>Entre em Contato com a nossa Equipe!</p>
+                <h1>Preencha o formulário abaixo e entraremos em contato com você o mais rápido possível (:</h1>
+            </section>
+
+            <form action="" method="post" id="form_contato">
+
+                <section>
+                    <div class="col1">
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name">
+
+                        <label for="surname">Sobrenome:</label>
+                        <input type="text" name="surname">
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email">
+
+                        <label for="birthdate">Data de Nascimento (pet):</label>
+                        <input type="text" name="birthdate">
+                    </div>
+
+                    <div class="col2">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" name="" id="">
+
+                        <label for="file">Upload de Arquivos:</label>
+                        <input type="file">
+
+
+
+                    </div>
+                </section>
+                <label for="msg">Insira sua Mensagem:</label>
+                <textarea name="msg" form="form_contato" cols="30" rows="10"></textarea>
+
+                <div id="checkbox">
+                    <div> <input type="checkbox">
+                        <label for="checkbox">I agree al them privacy stuffs and GDPR thingys.</label>
+                    </div>
+
+                    <input type="submit" id="sub" value="Enviar Mensagem">
+
+                </div>
+
+
+
+            </form>
+        </div>
+        <!-- <section>
             <div class="form">
                 <form action="" method="post" id="form_contato">
                     <label for="name">Nome:</label>
@@ -65,7 +110,7 @@
                 </form>
             </div>
 
-        </section>
+        </section> -->
     </main>
     <footer>
         <div class="start">
