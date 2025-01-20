@@ -28,53 +28,72 @@
     </header>
     <main>
         <div class="form_section">
-            <section>
+            <section class="title">
                 <p>Serviços Veterinários</p>
                 <h1>Veja Nossos Serviços e Faça um Agendamento</h1>
             </section>
 
-            <form action="" method="post" id="form_contato" >
+            <form action="" method="post" id="form_contato">
                 <section>
-                    <label for="services">Selecione o Serviço</label>
-                    <select name="services" id="services_menu">
-                        <option value="1">Chipagem de Rastreamento</option>
-                        <option value="2">Cirurgias Especializadas</option>
-                        <option value="3">Exames</option>
-                        <option value="4">Pet Export</option>
-                        <option value="5">Vacinação</option>
-                        <option value="6">Vermifugação</option>
-                        <option value="7">Testes Rápidos</option>
-                        <option value="8">Consultas</option>
-                    </select>
-                    <label for="data_atendimento">Selecione a data para atendimento</label>
-                    <input type="date" id="data_atendimento" name="data_atendimento">
+                    <div class="col1">
+                        <label for="services">Selecione o Serviço</label>
+                        <select name="services" id="services_menu">
+                            <option value="1">Chipagem de Rastreamento</option>
+                            <option value="2">Cirurgias Especializadas</option>
+                            <option value="3">Exames</option>
+                            <option value="4">Pet Export</option>
+                            <option value="5">Vacinação</option>
+                            <option value="6">Vermifugação</option>
+                            <option value="7">Testes Rápidos</option>
+                            <option value="8">Consultas</option>
+                        </select>
+                    </div>
+
+                    <div class="col2">
+                        <label for="data_atendimento">Selecione a data para atendimento</label>
+                        <input type="date" id="data_atendimento" name="data_atendimento">
+                    </div>
+
                 </section>
+
                 <section>
-                    <label for="name">Nome:</label>
-                    <input type="text" name="name">
+                    <div class="col1">
+                        <label for="name">Nome:</label>
+                        <input type="text" name="name">
 
-                    <label for="surname">Sobrenome:</label>
-                    <input type="text" name="surname">
+                        <label for="surname">Sobrenome:</label>
+                        <input type="text" name="surname">
 
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email">
 
-                    <label for="birthdate">Data de Nascimento (pet):</label>
-                    <input type="text" name="birthdate">
+                        <label for="birthdate">Data de Nascimento (pet):</label>
+                        <input type="text" name="birthdate">
+                    </div>
 
-                    <label for="phone">Telefone:</label>
-                    <input type="tel" name="" id="">
+                    <div class="col2">
+                        <label for="phone">Telefone:</label>
+                        <input type="tel" name="" id="">
 
-                    <label for="file">Upload de Arquivos:</label>
-                    <input type="file">
+                        <label for="file">Upload de Arquivos:</label>
+                        <input type="file">
 
-                    <label for="msg">Insira sua Mensagem:</label>
-                    <textarea name="msg" form="form_contato" cols="30" rows="10"></textarea>
 
-                    <input type="checkbox" id="checkbox">
-                    <label for="checkbox">I agree al them privacy stuffs and GDPR thingys.</label>
+
+                    </div>
                 </section>
-                <input type="submit" id="sub" value="Enviar Mensagem">
+                <label for="msg">Insira sua Mensagem:</label>
+                <textarea name="msg" form="form_contato" cols="30" rows="10"></textarea>
+
+                <div id="checkbox">
+                    <div> <input type="checkbox">
+                        <label for="checkbox">I agree al them privacy stuffs and GDPR thingys.</label>
+                    </div>
+                    <input type="submit" id="sub" value="Enviar Mensagem">
+
+                </div>
+
+
 
             </form>
         </div>
