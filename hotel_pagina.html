@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <nav id="Topbar">
+        <nav>
             <a class="logo" href="#home"><img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="45px"
                 height="45px"></a>
             <ul>
@@ -22,9 +22,9 @@
         </nav>
     </header>
     <main>
-        <div class="hero_section">
-            <section class="content_hero">
-                <div class="introducao">
+        <div class="conteudo">
+            <section class="info">
+                <div class="paragrafo-info">
                     <h1>Hotel para pets</h1>
                     <p>A PetServices oferece tratamento profissional de hospedagem para animais de estimação com uma estrutura completa e profissionais capacitados para receber nossos hóspedes. Garantimos uma hospedagem divertida, segura e educativa, socialização de cães e gatos, e que se divirtam em um ambiente acolhedor e estimulante!</p>
                 </div>
@@ -32,36 +32,60 @@
             </section>
 
             <section class="equipe">
-                <h2>Equipe</h2>
-                    <p>Conheça a equipe dedicada do nosso hotelzinho, garantindo cuidado e carinho.</p>
-                    <img src="./assets/fotoJulia.png" alt="Julia" width="100px"
-                    height="100px">
-                    <li><span class="text">Julia</span></li>
-                    <img src="./assets/fotoAthos.png" alt="Athos" width="130px"
-                    height="130x">
-                    <li><span class="text">Athos</span></li>
-                    <img src="" alt="Bruna" width="100px"
-                    height="100px">
-                    <li><span class="text">Bruna</span></li>
-                    <img src="" alt="Paulo" width="100px"
-                    height="100px">
-                    <li><span class="text">Paulo</span></li>
-                    <img src="" alt="Carlos" width="100px"
-                    height="100px">
-                    <li><span class="text">Carlos</span></li>
+                <div class="paragrafo-equipe">
+                    <h2>Equipe</h2>
+                        <p>Conheça a equipe dedicada do nosso hotelzinho, garantindo cuidado e carinho.</p>
+                </div> 
+                <div class="coluna-equipe">   
+                    <div class="img-julia">   
+                            <img src="./assets/fotoJulia.png" alt="Julia" width="80px"
+                            height="80px">
+                    </div>
+                    <div class="img-athos">
+                            <img src="./assets/fotoAthos.png" alt="Athos" width="90px"
+                            height="95x">
+                    </div>
+                    <div class="img-bruna">
+                            <img src="./assets/fotoBruna-hotel-modified.png" alt="Bruna" width="80px"
+                            height="80px">
+                    </div>
+                    <div class="img-paulo">
+                            <img src="./assets/fotoPaulo-hotel-modified.png" alt="Paulo" width="80px"
+                            height="80px">
+                    </div>
+                    <div class="img-carlos">
+                            <img src="./assets/fotoCarlos-hotel-modified.png" alt="Carlos" width="80px"
+                            height="80px">
+                    </div>
+                </div>
             </section>
 
+            <div class="titulo-serviços">
+                    <h2>Nossos serviços</h2>
+                </div>
             <section class="serviços">
-                <h2>Nossos serviços</h2>
-                    <img src="./assets/dognohotel-hotel.png" alt="Cachorro brincando">
-                    <h3>Hotelzinho</h3>
-                    <p>Seu pet desfruta de férias animais enquanto você também relaxa. Cuidamos do seu amigo com todo o carinho, pelo tempo que for necessário.</p>
-                    <img src="./assets/dogpasseando-hotel.png" alt="Cachorros passeando">
-                    <h3>Day-Care</h3>
-                    <p>Enquanto você trabalha, seu pet se diverte! Nosso daycare especializado oferece atividades, socialização e cuidados para que seu amigo fique feliz e entretido durante o dia.</p>
-                    <img src="./assets/dognobanho-hotel.png" alt="Cachorros toamndo banho">
-                    <h3>Banho e Tosa</h3>
-                    <p>Transforme o visual do seu pet. Oferecemos cuidados higiênicos de alta qualidade para que seu amigo tenha uma vida mais saudável e feliz.</p>
+                
+                
+                <div class="info-serviços">
+                            
+                        <div class="paragrafo-serviços">
+                            <img id="hotel-img" src="./assets/dognohotel-hotel.png" alt="Cachorro brincando" width="320px" height="250px">
+                            <h3>Hotelzinho</h3>
+                            <p>Seu pet desfruta de férias animais enquanto você também relaxa. Cuidamos do seu amigo com todo o carinho, pelo tempo que for necessário.</p>
+                        </div>    
+                            
+                        <div class="paragrafro-serviços">
+                            <img id="day-care-img" src="./assets/dogpasseando-hotel.png" alt="Cachorros passeando">
+                            <h3>Day-Care</h3>
+                            <p>Enquanto você trabalha, seu pet se diverte! Nosso daycare especializado oferece atividades, socialização e cuidados para que seu amigo fique feliz e entretido durante o dia.</p>
+                        </div>    
+                           
+                        <div class="paragrafo-serviços"> 
+                            <img id="banho-tosa-img" src="./assets/dognobanho-hotel.png" alt="Cachorros toamndo banho">  
+                            <h3>Banho e Tosa</h3>
+                            <p>Transforme o visual do seu pet. Oferecemos cuidados higiênicos de alta qualidade para que seu amigo tenha uma vida mais saudável e feliz.</p>
+                        </div>
+                </div>
             </section>
 
             <section class="avaliacoes">
@@ -122,32 +146,46 @@
         </div>
     </main>
     <footer>
-        <div>
-        <h2>Pet Services</h2>
-        <H4>Visão</H4>
-        <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet, transformando vidas ao conectar animais resgatados com lares amorosos e conscientes, promovendo uma sociedade mais empática e solidária.</p>
-        <br>
-        <p>&copy; 2024 Grupo 04-TC41 - Empresa Pet Services. Todos os direitos reservados</p>
+        <div class="start">
+            <h2>Pet Services</h2>
+            <div>
+                <H4>Visão</H4>
+                <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet, transformando vidas ao conectar animais resgatados com lares amorosos e conscientes, promovendo uma sociedade mais empática e solidária.</p>
+                <br>
+            </div>
+        </div>
+        
+        <div class="mid">
+            <p>&copy; 2024 Grupo 04-TC41 - Empresa Pet Services. Todos os direitos reservados</p>
         </div>
 
-        <div>
-            <h3>Adote</h3>
-            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/adocao.html">Buscar Pets</a>
-        </div>
+        <div class="end">
+            <div class="top">
+                <div>
+                    <h3>Adote</h3>
+                    <a style="text-decoration: none; color: var(--main-yellow);" href="https://github.com/Carloshee12/Pet_Service/blob/main/adocao.html">Buscar Pets</a>
+                </div>
 
-        <div>
-            <h3>Colabore</h3>
-            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/doe.html">Doe !</a>
-        </div>
+                <div>
+                    <h3>Colabore</h3>
+                    <a style="text-decoration: none; color: var(--main-yellow);" href="https://github.com/Carloshee12/Pet_Service/blob/main/doe.html">Doe !</a>
+                </div>
 
-        <div>
-            <h3>Redes Sociais</h3>
-            <a href="https://www.instagram.com/petservices_g4">Instagram</a>
-            <a href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL">Facebook</a>
-        </div>
-        <br>
-        <div>
-            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/termos_de_uso_e_politica.html">Termos de uso e Política de Privacidade</a>
+                <div>
+                    <h3>Redes Sociais</h3>
+                    <a style="text-decoration: none; color: var(--main-yellow);" style="display: flex; justify-content: center; gap: 10%;" href="https://www.instagram.com/petservices_g4"><img id="social_icon"
+                        src="./assets/instagram.svg" alt=""> Instagram</a>
+                    <a style="text-decoration: none; color: var(--main-yellow);" style="display: flex; justify-content: center; gap: 10%;" href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL"><img
+                        id="social_icon" src="./assets/facebook.svg" alt=""> Facebook</a>
+                </div>
+                
+                
+            </div>
+            
+                <div class="bottom">
+                    <a style="text-decoration: none; color: var(--main-yellow);" href="https://github.com/Carloshee12/Pet_Service/blob/main/termos_de_uso_e_politica.html">Termos de uso e Política de Privacidade</a>
+                </div>
+
         </div>
     </footer>
 </body>
