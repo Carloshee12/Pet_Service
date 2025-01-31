@@ -120,73 +120,34 @@
   /* -------------------MAIN------------------------- */
   .termos {
     background-color: var(--main-bg);
-    background-position:top right;
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
   .descricao {
-    display: flex;
-      flex-direction: row;
-      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
       margin: 2rem 2rem;
-      margin-left:1rem;
+      margin-left:5rem;
       margin-right: 5rem;
+      padding: 10%;
+      color: var(--main-blue);
+      text-align: justify;
   }
-
+  
   .p-descricao {
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: start;
-      padding: 10%;
-      color: var(--main-blue);
-  }
-
-  .p-descricao h2 {
-    padding: 1.2rem;
-  }
-
-  .politica {
-    background-color: var(--main-bg);
-    background-position:top right;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  .info {
-    display: flex;
+      display: flex;
       flex-direction: row;
-      justify-content: center;
-      margin: 2rem 2rem;
-      margin-left:1rem;
-      margin-right: 5rem;
-  }
-
-  .p-info {
-    display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: start;
-      padding: 10%;
-      color: var(--main-blue);
+      justify-content: space-around;
+      align-items: center;            
   }
 
   .p-descricao h2 {
-    padding: 1.2rem;
+    color: var(--main-blue);   
   }
-
-
-
-
-
-  div { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 2%;
-    gap: 10%;
+  div {
+    margin: 20px;
   }
-
+  
