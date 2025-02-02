@@ -4,21 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doações - Pet Services</title>
+    <link rel="stylesheet" href="./styles/doe.css">
 </head>
 <body>
     <header>
-        <h1>Pet Services</h1>
+        <nav id="topbar">
+            <a class="logo" href="#home"><img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="45px"
+                    height="45px"></a>
+
+            <ul class="options">
+                <li><a href="">Início</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Adoção</a></li>
+                <li><a href="">Hotel Pet</a></li>
+                <li><a id="button" href="">Entrar</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Ajude-nos a fazer a diferença!</h2>
-            <p>Com a sua doação, de qualquer valor, podemos continuar oferecendo suporte e cuidados para nossos amigos de quatro patas. Veja abaixo nossas informações para doação:</p>
-            <h3>Chave PIX:</h3>
-            <p><strong>doacoes@petservice.com.br</strong></p>
-            <p>
-                <img src="qr_code.png" alt="QR Code">
-            </p>
-            <p>Escaneie o QR Code acima com o app do seu banco ou utilize a chave PIX para realizar sua doação.</p>
-        </section>
+        <div class="conteudo">        
+            <img src="./assets/ps_logo.svg" alt="Carinho de Bicho" width="200px" height="230px">
+                        
+            <section class="hero"> 
+                <h2>Ajude-nos a fazer a diferença!</h2><br>
+                <p>Com a sua doação, de qualquer valor, podemos continuar oferecendo suporte e cuidados para nossos amigos de quatro patas. Veja abaixo nossas informações para doação:</p><br>
+                <h3>Chave PIX:</h3><br>
+                <p><strong>doacoes@petservice.com.br</strong></p><br>
+                <div>
+                    <img src="./assets/qrcode.png" alt="QR Code - PIX" width="200px" height="230px">
+                </div>            
+                <p>Escaneie o QR Code acima com o app do seu banco ou utilize a chave PIX para realizar sua doação.</p>   
+            </section>
+        </div>
     </main>
+
+    <footer>
+        <div class="start">
+            <h2>Pet Services</h2>
+            <div>
+                <h4>Visão</h4>
+                <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet,
+                <p> transformando vidas ao conectar animais resgatados com lares amorosos e conscientes,
+                </p> promovendo uma sociedade mais empática
+                e solidária.</p>
+            </div>
+
+        </div>
+
+        <div class="mid">
+            <p>&copy; 2024 Grupo 04-TC41 - Empresa Pet Services. Todos os direitos reservados</p>
+        </div>
+
+        <div class="end">
+            <div class="top">
+                <div>
+                    <h3>Adote</h3>
+                    <a href="./adocao.html">Buscar Pets</a>
+                </div>
+                <div>
+                    <h3>Colabore</h3>
+                    <a href="./doe.html">Doe !</a>
+                </div>
+                <div>
+                    <h3>Redes Sociais</h3>
+                    <a style="display: flex; justify-content: center; gap: 10%;"
+                        href="https://www.instagram.com/petservices_g4"><img id="social_icon"
+                            src="./assets/instagram.svg" alt=""> Instagram</a>
+                    <a style="display: flex; justify-content: center; gap: 10%;"
+                        href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL"><img
+                            id="social_icon" src="./assets/facebook.svg" alt=""> Facebook</a>
+                </div>
+            </div>
+            <div class="bottom"> <a href="./termos_de_uso_e_politica.html">Termos de
+                    uso e Política de Privacidade</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
