@@ -1,0 +1,200 @@
+/* Variáveis globais */
+:root {
+  --primary-color: #294264;
+  --secondary-color: #F9E8B3;
+  --text-color: #294264;
+  --background-color: #FFFFFF;
+  --hover-secondary: #e6d39c;
+}
+
+/* Estilização geral */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  overflow-x: hidden; /* Evitar barras de rolagem horizontais */
+}
+
+/* Barra de navegação */
+nav {
+  background-color: var(--primary-color);
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1em;
+  transition: text-decoration 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav .button:hover {
+  background-color: var(--hover-secondary);
+}
+
+/* Seção principal */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+  position: relative;
+  overflow: hidden;
+ 
+}
+
+.hero-section .content {
+  max-width: 100%;
+  z-index: 2;
+  justify-content: center;
+  padding-left: 17.5%;
+  align-items: flex-start
+ 
+ 
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 70px;
+  color: var(--primary-color);
+  padding: inherit;
+  padding-left: 100px;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 60px;
+  line-height: 1.8;
+  color: var(--text-color);
+  padding: inherit;
+}
+
+.hero-section .buttons {
+  display: flex;
+  gap: 40px;
+  padding: inherit;
+  padding-left: 100px;
+}
+
+.hero-section .buttons button {
+  background-color: #FFFFFF; /* Amarelo com 50% de transparência */;
+  border: none;
+  color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .buttons button:hover {
+  background-color: var(--background-color);
+}
+
+/* Imagem */
+.hero-section .image-container {
+  max-width: 100%; /* Ajuste do tamanho geral da imagem */
+  position: relative;
+  border-radius: 37%;
+  z-index: 2;
+  margin-left: 150px; /* Empurrar a imagem mais à direita */
+}
+
+.hero-section .image-container1 img {
+  width: 87%;
+  height: 60%;
+  margin-left: 120px;
+  margin: right 140px;; /* Ajuste automático para largura da imagem */
+  border-radius: 100px 99px 0px; /* Transformar a imagem em formato circular */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra mais evidente */
+  position: relative; /* ou absolute/fixed */
+  z-index: 10;
+  bottom: 35px;
+}
+
+/* Fundo geométrico */
+.background-shapes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.background-shapes::before,
+.background-shapes::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.background-shapes::before {
+  width: 1000px;
+  height: 750px;
+  background-color: #f5e2c7; /* Amarelo com 50% de transparência */
+
+  top: -50px;
+  left: 320px;
+  opacity: 0.8;
+}
+
+.background-shapes::after {
+  width: 120px;
+  height: 120px;
+  background-color: hsla(35, 96%, 68%, 0.1);
+  /* 10% de opacidade */
+ /* Amarelo com 50% de transparência */
+
+  top: 200px;
+  left: 350px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-section .content {
+    max-width: 90%;
+  }
+
+  .hero-section .image-container {
+    margin: 30px 0 0;
+    max-width: 70%;
+  }
+
+  .hero-section .buttons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
