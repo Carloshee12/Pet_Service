@@ -37,26 +37,7 @@
                         <p>Conheça a equipe dedicada do nosso hotelzinho, garantindo cuidado e carinho.</p>
                 </div> 
                 <div class="coluna-equipe">   
-                    <div class="img-julia">   
-                            <img src="./assets/fotoJulia.png" alt="Julia" width="80px"
-                            height="80px">
-                    </div>
-                    <div class="img-athos">
-                            <img src="./assets/fotoAthos.png" alt="Athos" width="90px"
-                            height="95x">
-                    </div>
-                    <div class="img-bruna">
-                            <img src="./assets/fotoBruna-hotel-modified.png" alt="Bruna" width="80px"
-                            height="80px">
-                    </div>
-                    <div class="img-paulo">
-                            <img src="./assets/fotoPaulo-hotel-modified.png" alt="Paulo" width="80px"
-                            height="80px">
-                    </div>
-                    <div class="img-carlos">
-                            <img src="./assets/fotoCarlos-hotel-modified.png" alt="Carlos" width="80px"
-                            height="80px">
-                    </div>
+
                 </div>
             </section>
 
@@ -88,66 +69,118 @@
                 </div>
             </section>
 
+            <h2 id="titulo-avaliacoes">Avaliações de nossos clientes</h2>
+
             <section class="avaliacoes">
-                <h2>Avaliações de nossos clientes</h2>
-                    <h3>Lorena L. silva</h3>
-                    <p>Gostaria de parabenizar a equipe do PetServices pela trabelho incrivel, durante toda a estadia fui informado diariamente sobre a estelinha. Agora vou viajar despreocupado pois tenho aonde deixa a ela sempre.</p>
-                    <img src="./assets/depoimento1-hotel.jpg" alt="Cachorro correndo" width="200px"
-                    height="200px">
-                    <h3>Flávia C. Simões</h3>
-                    <p>Sem dúvidas, um lugar acolhedor onde tratam com carinho e muito amor os peludinhos, oferecem colinho, e muita diversão. Com certeza irão retornar para que possam rever seus aumiguinhos.</p>
-                    <img src="./assets/depoimento2-hotel.jpg" alt="Cachorros brincando" width="200px"
-                    height="200px">
-                    <h3>Guilherme A. Oliveira</h3>
-                    <p>Max foi muito bem acolhido! Todos os dias recebia vídeos dele sem eu precisar pedir. O espaço é limpinho e espaçoso para os pets  brincarem. Obrigada pelo carinho e cuidado que vocês tiveram com ele!❤️</p>
-                    <img src="./assets/depoimento3-hotel.jpg" alt="Gato" width="200px"
-                    height="200px">
-
-                    <a class="logo" href="#avaliacoes"><img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="300px"
-                        height="300px"></a>
+                
+                <div class="container-avaliacoes">
+                    <div class="avaliacao">
+                        <div class="coluna-avaliacoes">
+                            <h3>Lorena L. Silva</h3>
+                            <p>Gostaria de parabenizar a equipe do PetServices pelo trabalho incrível. Durante toda a estadia, fui informado diariamente sobre a Estelinha. Agora vou viajar despreocupado, pois tenho onde deixá-la sempre.</p>
+                        </div>
+                        <div class="imagem-avaliacao">
+                            <img class="img-avali" src="./assets/depoimento1-hotel.jpg" alt="Cachorro correndo" width="200" height="200">
+                        </div>
+                    </div>
+            
+                    <div class="avaliacao">
+                        <div class="coluna-avaliacoes">
+                            <h3>Flávia C. Simões</h3>
+                            <p>Sem dúvidas, um lugar acolhedor onde tratam com carinho e muito amor os peludinhos, oferecem colinho e muita diversão. Com certeza irão retornar para que possam rever seus aumiguinhos.</p>
+                        </div>
+                        <div class="imagem-avaliacao">
+                            <img class="img-avali" src="./assets/depoimento2-hotel.jpg" alt="Cachorros brincando" width="200" height="200">
+                        </div>
+                    </div>
+            
+                    <div class="avaliacao">
+                        <div class="coluna-avaliacoes">
+                            <h3>Guilherme A. Oliveira</h3>
+                            <p>Max foi muito bem acolhido! Todos os dias recebia vídeos dele sem eu precisar pedir. O espaço é limpinho e espaçoso para os pets brincarem. Obrigado pelo carinho e cuidado que vocês tiveram com ele! ❤️</p>
+                        </div>
+                        <div class="imagem-avaliacao">
+                            <img class="img-avali" src="./assets/depoimento3-hotel.jpg" alt="Gato" width="200" height="200">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="container-logo-avaliacoes">
+                    <a class="logo" href="#avaliacoes">
+                        <img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="293" height="341">
+                    </a>
+                </div>
             </section>
 
-            <section class="contato">
-                <h2>Fale Conosco</h2>
-                <form action="#">
-                    <label for="serviços"> Selecione o serviços</label>
-                    <select name="serviços">
-                        <option value="serviços">Disponíveis:</option>
-                        <option value="Hotelzinho">Hotelzinho</option>
-                        <option value="Creche">Creche</option>
-                        <option value="Banho e Tosa">Banho e Tosa</option>
-                        <option value="Mensalidade">Mensalidade</option>
-                    </select>
-                    <label for="peso">Selecione o peso do seu pet:</label>
-                    <select name="peso" id="opcoes">
-                        <option value="gato">Gato</option>
-                        <option value="caes ate 10kg">Até 10kg</option>
-                        <option value="caes ate 20kg">Até 20kg</option>
-                        <option value="caes ate 30kg">Até 30kg</option>
-                        <option value="caes ate 40kg">Até 40kg</option>
-                        <option value="caes acima de 40kg">Acima de 40kg</option>
-                    </select>
-                    <label for="nome">Digite seu nome:</label>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
-                        <label for="email">Digite seu e-mail:</label>
-                        <input type="text" id="email" name="email" placeholder="" required>
-                        <label for="telefone">Telefone:</label>
-                        <input type="number" id="telefone" name="telefone" placeholder="( )9" required>
-                        <label for="mensagem">Deixe uma mensagem:</label>
-                        <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem" required>
-                        <button type="submit" value="enviar">Enviar</button>
-                <h2>Minha Localização</h2>
-                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.40135028468266!3d37.79361797975673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c28f18b7f%3A0x81c7802dc5e403d8!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbr!4v1631787312269!5m2!1sen!2sbr"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
-                    </iframe>
-                </form>
-            </section>
+             <section class="titulo-contato">
+                    <h2>Fale Conosco</h2>
+                </section>
+            <div class="contato">
+               
+            
+                <div class="formulario-container">
+                    <form action="" method="post" id="formulario-contato">
+                        <fieldset>
+                            <div class="formulario-esquerda">
+                                <div class="linha">
+                                    <div class="coluna">
+                                        <label for="servicos">Selecione o serviço:</label>
+                                        <select name="servicos" id="servicos">
+                                            <option value="">Serviços Disponíveis</option>
+                                            <option value="Hotelzinho">Hotelzinho</option>
+                                            <option value="Creche">Creche</option>
+                                            <option value="Banho e Tosa">Banho e Tosa</option>
+                                            <option value="Mensalidade">Mensalidade</option>
+                                        </select>
+                                    </div>
+                                    <div class="coluna">
+                                        <label for="peso">Selecione o peso do seu pet:</label>
+                                        <select name="peso" id="peso">
+                                            <option value="">Até 10kg</option>
+                                            <option value="10kg">Até 10kg</option>
+                                            <option value="20kg">Até 20kg</option>
+                                            <option value="30kg">Até 30kg</option>
+                                            <option value="40kg">Até 40kg</option>
+                                            <option value="mais40kg">Acima de 40kg</option>
+                                        </select>
+                                    </div>
+                                </div>
+            
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" name="nome" placeholder="Seu nome">
+            
+                                <div class="linha">
+                                    <div class="coluna">
+                                        <label for="email">E-mail:</label>
+                                        <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                                    </div>
+                                    <div class="coluna">
+                                        <label for="telefone">Telefone:</label>
+                                        <input type="tel" id="telefone" name="telefone" placeholder="( ) 9">
+                                    </div>
+                                </div>
+            
+                                <label for="mensagem">Deixe sua mensagem:</label>
+                                <textarea name="mensagem" id="mensagem" placeholder="Mensagem"></textarea>
+            
+                                <button type="submit">Enviar</button>
+                            </div>
+                        </fieldset>
+                    </form>
+            
+                    <div class="mapa-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.40135028468266!3d37.79361797975673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085818c28f18b7f%3A0x81c7802dc5e403d8!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbr!4v1631787312269!5m2!1sen!2sbr"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
         <div class="start">
-            <h2>Pet Services</h2>
+            <h2 id="titulo-footer">Pet Services</h2>
             <div>
                 <H4>Visão</H4>
                 <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet, transformando vidas ao conectar animais resgatados com lares amorosos e conscientes, promovendo uma sociedade mais empática e solidária.</p>
