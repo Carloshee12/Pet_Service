@@ -19,7 +19,7 @@ body {
 /* Barra de navegação */
 nav {
   background-color: var(--primary-color);
-  color: #FFFFFF;
+  color: #e6d39c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,7 @@ nav {
 }
 
 nav a {
-  color: #FFFFFF;
+  color: #e6d39c;
   text-decoration: none;
   margin: 0 10px;
   font-size: 1em;

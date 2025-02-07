@@ -5,82 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adote Pet Services</title>
     <link rel="stylesheet" href="./styles/adocao.css">
+    <link rel="stylesheet" href="./styles/vet_services.css">
 </head>
 <body>
     <header>
         <nav id="topbar">
-            <a class="logo" href="#home"><img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="45px"
-                    height="45px"></a>
-
-            <ul class="options">
-                <li><a href="">Início</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Contato</a></li>
-                <li><a href="">Adoção</a></li>
-                <li><a href="">Hotel Pet</a></li>
-                <li><a id="button" href="">Entrar</a></li>
-            </ul>
+          <a class="logo" href="#home"><img src="./assets/ps_logo.svg" alt="Logo Pet Services" width="60px"></a>
+          <ul class="options">
+            <li><a href="">Início</a></li>
+            <li><a href="">Sobre</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Adoção</a></li>
+            <li><a href="">Hotel Pet</a></li>
+            <li><a class="button" href="">Entrar</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
     
     <main>   
-        <div class="container"> 
-            <section class="conteudo">
-                <div class="pconteudo">
-                    <p>Conheça a</p>
-                    <h1>Adote Pet Services</h1>
-                    <p>Conectamos quem deseja adotar um pet com ONGs e protetores parceiros.<br>
+        <section class="hero-section">
+                <div class="hero-conteudo">
+                    <h1>Adote</h1>
+                    <h2>Pet Services</h2>
+                    <p>Conectamos quem deseja adotar um pet com ONGs<br>e protetores parceiros.
                         Juntos somos mais fortes!</p>
                 </div>
-                    <div class="pconteudo">    
+                    <div class="hero-img">    
                         <img src="./assets/img1_adotePetServices.png" alt="Carinho de Bicho" width="90%">
-                    </div>
-                </div>
-                    <div class="hero-buttons">
-                        <button class="botaoazul">Quero Adotar!</button>
-                        <button class="botaoamarelo">Quero Divulgar um bichinho!</button>
-                    </div>
-                </div>
-            </section>
+                    </div>               
+        </section>
+        </div>
+            <div class="hero-buttons">
+                <button class="botaoazul">Quero Adotar!</button>
+                <button class="botaoamarelo">Quero Divulgar um bichinho!</button>
+            </div>
+        </div>
 
-            <section class="gallery">
-                <div class="gallery-texto">
+        <section class="galeria">
+            <div class="galeria-texto">
                 <h1>Galeria de Peludos</h1>
-                <p>Nosso site está cheio de gatinhos e doguinhos esperando por um lar e uma família.<br>Confira!</p>
-                </div>
+                <p>Nosso site está cheio de gatinhos e doguinhos esperando por um lar e uma família. Confira!</p>
+            </div>
 
-                <div class="gallery-section">
-                    <h2>Gatinhos</h2>
-                    <div class="cards-container">
+            <div class="galeria-section">
+                <h2>Gatinhos</h2>
+                <div class="cards-container">
+                    <article class="card">
+                        <h3>Bolotinha</h3>
+                        <img src="./assets/g1_bolotinha.png" alt="Bolotinha">
+                        <p>São Caetano / SP</p>
+                        <button class="btn-adote">Adote</button>
+                    </article>
+                    <article class="card">
+                        <h3>Niki</h3>
+                        <img src="./assets/g2_niki.png" alt="Niki">
+                        <p>Santo André / SP</p>
+                        <button class="btn-adote">Adote</button>
+                    </article>
                         <article class="card">
-                            <h3>Bolotinha</h3>
-                            <img src="./assets/g1_bolotinha.png" alt="Bolotinha">
-                            <p>São Bernardo do Campo / SP</p>
-                            <button class="btn-adote">Adote</button>
-                        </article>
-                        <article class="card">
-                            <h3>Niki</h3>
-                            <img src="./assets/g2_niki.png" alt="Niki">
-                            <p>Santo André / SP</p>
-                            <button class="btn-adote">Adote</button>
-                        </article>
-                        <article class="card">
-                            <h3>Pepeu</h3>
-                            <img src="./assets/g3_pepeu.png" alt="Pepeu">
-                            <p>São Bernardo do Campo / SP</p>
-                            <button class="btn-adote">Adote</button>
-                        </article>
-                        <article class="card">
-                            <h3>Lolla</h3>
-                            <img src="./assets/g4_lolla.png" alt="Lolla">
-                            <p>São Caetano do Sul / SP</p>
-                            <button class="btn-adote">Adote</button>
-                        </article>
+                        <h3>Pepeu</h3>
+                        <img src="./assets/g3_pepeu.png" alt="Pepeu">
+                        <p>São Paulo / SP</p>
+                        <button class="btn-adote">Adote</button>
+                    </article>
+                    <article class="card">
+                        <h3>Lolla</h3>
+                        <img src="./assets/g4_lolla.png" alt="Lolla">
+                        <p>São Caetano do Sul / SP</p>
+                        <button class="btn-adote">Adote</button>
+                    </article>
                     </div>
                     <a href="verMais.html" class="ver-mais">Ver mais gatos</a>
                 </div>
 
-                <div class="gallery-section">
+                <div class="galeria-section">
                     <h2>Doguinhos</h2>
                     <div class="cards-container">
                         <article class="card">
@@ -98,7 +96,7 @@
                         <article class="card">
                             <h3>Thor</h3>
                             <img src="./assets/thor.jpg" alt="Thor">
-                            <p>São Bernardo do Campo / SP</p>
+                            <p>São Paulo / SP</p>
                             <button class="btn-adote">Adote</button>
                         </article>
                         <article class="card">
@@ -113,15 +111,15 @@
             </section>
 
             <section class="estatisticas">
-                <div class="estatistica-card">
+                <div >
                     <h1>52+</h1>
                     <h4>Peludinhos adotados em 2024</h4>
                 </div>
-                <div class="estatistica-card">
+                <div >
                     <h1>70+</h1>
                     <h4>Animais cadastrados esse ano</h4>
                 </div>
-                <div class="estatistica-card">
+                <div>
                     <h1>60%+</h1>
                     <h4>Tem um novo lar!</h4>
                 </div>
@@ -131,45 +129,39 @@
 
     <footer>
         <div class="start">
-            <h2>Pet Services</h2>
-            <div>
-                <h4>Visão</h4>
-                <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet,
-                <p> transformando vidas ao conectar animais resgatados com lares amorosos e conscientes,
-                </p> promovendo uma sociedade mais empática
-                e solidária.</p>
-            </div>
-
+          <h2>Pet Services</h2>
+          <div>
+            <h4>Visão</h4>
+            <p>Ser referência em cuidado, bem-estar e responsabilidade social no setor pet,
+              transformando vidas ao conectar animais resgatados com lares amorosos e conscientes,
+              promovendo uma sociedade mais empática e solidária.</p>
+          </div>
         </div>
-
         <div class="mid">
-            <p>&copy; 2024 Grupo 04-TC41 - Empresa Pet Services. Todos os direitos reservados</p>
+          <p>&copy; 2024 Grupo 04-TC41 - Empresa Pet Services. Todos os direitos reservados</p>
         </div>
-
         <div class="end">
-            <div class="top">
-                <div>
-                    <h3>Adote</h3>
-                    <a href="https://github.com/Carloshee12/Pet_Service/blob/main/adocao.html">Buscar Pets</a>
-                </div>
-                <div>
-                    <h3>Colabore</h3>
-                    <a href="https://github.com/Carloshee12/Pet_Service/blob/main/doe.html">Doe !</a>
-                </div>
-                <div>
-                    <h3>Redes Sociais</h3>
-                    <a style="display: flex; justify-content: center; gap: 10%;"
-                        href="https://www.instagram.com/petservices_g4"><img id="social_icon"
-                            src="./assets/instagram.svg" alt=""> Instagram</a>
-                    <a style="display: flex; justify-content: center; gap: 10%;"
-                        href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL"><img
-                            id="social_icon" src="./assets/facebook.svg" alt=""> Facebook</a>
-                </div>
+          <div class="top">
+            <div>
+              <h3>Adote</h3>
+              <a href="https://github.com/Carloshee12/Pet_Service/blob/main/adocao.html">Buscar Pets</a>
             </div>
-            <div class="bottom"> <a href="https://github.com/Carloshee12/Pet_Service/blob/main/termos_de_uso_e_politica.html">Termos de
-                    uso e Política de Privacidade</a>
+            <div>
+              <h3>Colabore</h3>
+              <a href="https://github.com/Carloshee12/Pet_Service/blob/main/doe.html">Doe!</a>
             </div>
+            <div>
+              <h3>Redes Sociais</h3>
+              <a href="https://www.instagram.com/petservices_g4">Instagram</a>
+              <a href="https://www.facebook.com/profile.php?id=61570231025545&mibextid=ZbWKwL">Facebook</a>
+            </div>
+          </div>
+          <div class="bottom">
+            <a href="https://github.com/Carloshee12/Pet_Service/blob/main/termos_de_uso_e_politica.html">
+              Termos de uso e Política de Privacidade
+            </a>
+          </div>
         </div>
-    </footer>
+      </footer>
 </body>
 </html>
