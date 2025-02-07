@@ -19,7 +19,7 @@ O projeto tem como objetivo a aplicação e uso eficiente das tecnologias web, m
 - [@b-cardoso](https://github.com/b-cardoso)
 - [@carloshee12](https://github.com/carloshee12)
 - [@julia-ag76](https://github.com/julia-ag76)
-- [@pvrezende](https://github.com/pvrezende)
+- ~~[@pvrezende](https://github.com/pvrezende)~~ O integrante Paulo desistiu do curso em 03/02/2025.
 
 
 
