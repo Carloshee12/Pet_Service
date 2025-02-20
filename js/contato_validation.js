@@ -115,7 +115,7 @@ phoneInput.addEventListener("input", function (e) {
 
 
 phoneInput.addEventListener("change", (e) => { 
-    if(e.target.value.length < 13){
+    if(e.target.value.length < 19){
         phoneInput.classList.add("error")
         phoneInput.classList.remove("correct")
         phoneHelper.classList.add("visible")
