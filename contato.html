@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/contato.css">
+    <script src="./js/validacao_form.js" defer></script>
     <title>Fale Conosco</title>
 </head>
 
@@ -39,22 +40,26 @@
 
                 <section>
                     <div class="col1">
-                        <label for="name">Nome:</label>
-                        <input type="text" name="name">
+                        <label for="name">* Nome:</label>
+                        <p id="name-helper" class="helper-text">Nome precisa ter 10 ou mais caracteres.</p>
+                        <input type="text" id="name" name="name">
 
                         <label for="surname">Sobrenome:</label>
                         <input type="text" name="surname">
 
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email">
+                        <label for="email">* E-mail:</label>
+                        <p id="email-helper" class="helper-text">Insira um e-mail válido.</p>
+                        <input type="email" id="email" name="email">
 
-                        <label for="birthdate">Data de Nascimento (pet):</label>
-                        <input type="text" name="birthdate">
+                        <label for="birthdate">* Data de Nascimento (pet):</label>
+                        <p id="birthdate-helper" class="helper-text">Insira uma data válida.</p>
+                        <input type="date" id="birthdate" name="birthdate">
                     </div>
 
                     <div class="col2">
-                        <label for="phone">Telefone:</label>
-                        <input type="tel" name="" id="">
+                        <label for="phone">* Telefone:</label>
+                        <p id="phone-helper" class="helper-text">Insira um número de telefone válido</p>
+                        <input type="tel" name="telefone" id="phone">
 
                         <label for="file">Upload de Arquivos:</label>
                         <input type="file">
