@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/vet_services_agendamento.css">
+    <script src="./js/agendamento_validation.js"></script>
     <title>Agendamento</title>
 </head>
 
@@ -36,7 +37,7 @@
             <form action="" method="post" id="form_contato">
                 <section>
                     <div class="col1">
-                        <label for="services">Selecione o Serviço</label>
+                        <label for="services">*Selecione o Serviço</label>
                         <select name="services" id="services_menu">
                             <option value="1">Chipagem de Rastreamento</option>
                             <option value="2">Cirurgias Especializadas</option>
@@ -50,7 +51,7 @@
                     </div>
 
                     <div class="col2">
-                        <label for="data_atendimento">Selecione a data para atendimento</label>
+                        <label for="data_atendimento">*Selecione a data para atendimento</label>
                         <input type="date" id="data_atendimento" name="data_atendimento">
                     </div>
 
@@ -58,21 +59,21 @@
 
                 <section>
                     <div class="col1">
-                        <label for="name">Nome:</label>
+                        <label for="name">*Nome:</label>
                         <input type="text" name="name">
 
                         <label for="surname">Sobrenome:</label>
                         <input type="text" name="surname">
 
-                        <label for="email">E-mail:</label>
+                        <label for="email">*E-mail:</label>
                         <input type="email" name="email">
 
-                        <label for="birthdate">Data de Nascimento (pet):</label>
+                        <label for="birthdate">*Data de Nascimento (pet):</label>
                         <input type="text" name="birthdate">
                     </div>
 
                     <div class="col2">
-                        <label for="phone">Telefone:</label>
+                        <label for="phone">*Telefone:</label>
                         <input type="tel" name="" id="">
 
                         <label for="file">Upload de Arquivos:</label>
