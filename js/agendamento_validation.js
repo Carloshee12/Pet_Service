@@ -86,3 +86,44 @@ nascInput.addEventListener("change", (e) => {
 
     }
 })
+
+//-------------------------------------------------------------------------------
+
+// // Validação telefone
+let phoneInput = document.getElementById("phone")
+let phoneLabel = document.querySelector('label[for="phone"]')
+let phoneHelper = document.getElementById("phone-helper")
+
+phoneInput.addEventListener("focus", () => {
+    phoneLabel.classList.add("required-popup")
+})
+
+phoneInput.addEventListener("blur", () => {
+    phoneLabel.classList.remove("required-popup")
+})
+
+phoneInput.addEventListener("input", function (e) {
+    let num = e.target.value.replace(/\D/g, ""); // Remove tudo que não for número
+    num = num.substring(0, 13); // Limita a 13 dígitos
+    
+    if (num.length > 2) num = `+${num.substring(0, 2)} (${num.substring(2)}`;
+    if (num.length > 5) num = `${num.substring(0, 6)}) ${num.substring(6)}`;
+    if (num.length > 10) num = `${num.substring(0, 12)}-${num.substring(12)}`;
+
+    e.target.value = num;
+});
+
+
+phoneInput.addEventListener("change", (e) => { 
+    if(e.target.value.length < 19){
+        phoneInput.classList.add("error")
+        phoneInput.classList.remove("correct")
+        phoneHelper.classList.add("visible")
+
+    }else{
+        phoneInput.classList.remove("error")
+        phoneInput.classList.add("correct")
+        phoneHelper.classList.remove("visible")
+
+    }
+})
