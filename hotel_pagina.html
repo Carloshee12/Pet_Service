@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/hotel_pagina.css">
+    <script src="./js/contato_hotel_validation.js" defer></script>
     <title>Hotel para Pets</title>
 </head>
 <body>
@@ -145,18 +146,23 @@
                                         </select>
                                     </div>
                                 </div>
-            
+
+                                <div class="inputField">
                                 <label for="nome">Nome:</label>
-                                <input type="text" id="nome" name="nome" placeholder="Seu nome">
-            
+                                <input class="invalid" type="text" id="nome" name="nome" placeholder="Seu nome">
+                                <p class="error error-hidden">Nome é obrigatório.</p>
+                                </div>
+
                                 <div class="linha">
                                     <div class="coluna">
                                         <label for="email">E-mail:</label>
                                         <input type="email" id="email" name="email" placeholder="Seu e-mail">
+                                        <p class="error error-hidden">Insira o email corretamente.</p>
                                     </div>
                                     <div class="coluna">
                                         <label for="telefone">Telefone:</label>
                                         <input type="tel" id="telefone" name="telefone" placeholder="( ) 9">
+                                        <p class="error error-hidden">Insira um numero de telefone.</p>
                                     </div>
                                 </div>
             
