@@ -21,6 +21,22 @@
         </ul>
       </nav>
     </header>
+    <div class="carrossel-container">
+      <div class="carrossel">
+          <div class="slide active">
+              <img src="assets/castrar.jpg" alt="Slide 1">
+          </div>
+          <div class="slide">
+              <img src="assets/depoimento2-hotel.jpg" alt="Slide 2">
+          </div>
+          <div class="slide">
+              <img src="assets/img1_adotePetServices.png" alt="Slide 3">
+          </div>
+      </div>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+      <div class="indicadores"></div>
+  </div>
     <section class="hero-section">
       <div class="content">
         <h1>CONHEÇA OS NOSSOS SERVIÇOS</h1>
@@ -82,5 +98,60 @@
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          const carrossel = document.querySelector('.carrossel');
+          const slides = document.querySelectorAll('.slide');
+          const prevBtn = document.querySelector('.prev');
+          const nextBtn = document.querySelector('.next');
+          const indicadores = document.querySelector('.indicadores');
+          let currentIndex = 0;
+          let autoPlay = true;
+          let interval = 4000;
+      
+          // Cria indicadores
+          slides.forEach((_, index) => {
+              const indicador = document.createElement('span');
+              if(index === 0) indicador.classList.add('active');
+              indicador.addEventListener('click', () => goToSlide(index));
+              indicadores.appendChild(indicador);
+          });
+      
+          function updateIndicadores() {
+              document.querySelectorAll('.indicadores span').forEach((span, index) => {
+                  span.classList.toggle('active', index === currentIndex);
+              });
+          }
+      
+          function goToSlide(index) {
+              currentIndex = (index + slides.length) % slides.length;
+              carrossel.style.transform = `translateX(-${currentIndex * 100}%)`;
+              updateIndicadores();
+          }
+      
+          function nextSlide() {
+              goToSlide(currentIndex + 1);
+          }
+      
+          function prevSlide() {
+              goToSlide(currentIndex - 1);
+          }
+      
+          nextBtn.addEventListener('click', nextSlide);
+          prevBtn.addEventListener('click', prevSlide);
+      
+          // Autoplay
+          let intervalId;
+          if(autoPlay) {
+              intervalId = setInterval(nextSlide, interval);
+              
+              // Pausa ao passar o mouse
+              carrosselContainer.addEventListener('mouseenter', () => clearInterval(intervalId));
+              carrosselContainer.addEventListener('mouseleave', () => {
+                  intervalId = setInterval(nextSlide, interval);
+              });
+          }
+      });
+      </script>
   </body>
   </html>
